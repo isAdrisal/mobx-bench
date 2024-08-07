@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "bench": "deno run -A mst.js && deno run -A mks.ts"
+  },
+  "imports": {
+    "mobx-keystone": "npm:mobx-keystone@^1.10.2",
+    "mobx-state-tree": "npm:mobx-state-tree@^6.0.1"
+  }
+}
